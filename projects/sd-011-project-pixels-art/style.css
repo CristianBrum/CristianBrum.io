@@ -1,0 +1,72 @@
+body {
+  background-image: url('images/ex3C66n.jpg');
+  font-family: 'Press Start 2P', cursive;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#title {
+  text-align: center;
+  color: #dfc015;
+  font-size: 40px;
+}
+
+#color-palette {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+#color-palette button {
+  border: black solid 1px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#pixel-board {
+  display: inline-block;
+}
+
+.pixel {
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.divPix {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+#clear-board , #generate-board {
+  display: inline-block;
+  padding: 8px;
+  font-size: 13px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#board-size {
+  font-family: 'Press Start 2P', cursive;
+  width: 60px;
+  height: 22px;
+  font-size: 11px;
+}
