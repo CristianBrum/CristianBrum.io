@@ -1,0 +1,179 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin-right: 5px;
+  padding: 5px;
+  text-align: center;
+  font-family: Courier, monospace;
+  line-height: 25px;
+}
+
+header {
+  height: 75px;
+  background-color: aliceblue;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom-style: ridge;
+  box-shadow: 0 2px 2px grey;
+}
+
+.licoes li {
+  border-bottom-style: ridge;
+  border-color: aqua;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.home ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 25px;
+  margin-right: 30px;
+}
+
+.home li:hover {
+  text-decoration: underline;
+  color: dodgerblue;
+  font-weight: 1000;
+}
+
+.home a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+#titulo {
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(50, 237, 138);
+  width: 50px;
+  height: 5px;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 200%;
+  margin-top: 100px;
+}
+
+.hello {
+  font-size: 30px;
+  line-height: 8vh;
+  padding-top: 2vh;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.name_two {
+  font-size: 60px;
+  color: rgb(50, 237, 138);
+}
+
+.licoes {
+  display: inline-block;
+  width: 50%;
+  border-bottom-style: ridge;
+  box-shadow: 0 2px 2px grey;
+  background-color: aliceblue;
+}
+
+.licoes li:hover {
+  color: aqua;
+  font-weight: 1000;
+  background-color: dodgerblue;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin: 50px;
+  margin-left: 1px;
+  width: 0 auto;
+  text-align: left;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  width: 0 auto;
+}
+
+.title_licoes {
+  color: dodgerblue;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.article {
+  width: 100%;
+  margin-top: 1px;
+  border: 10px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  width: 45%;
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
+  border-bottom-style: ridge;
+  box-shadow: 0 2px 2px grey;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+.lado-direito {
+  float: center;
+  margin-right: 45px;
+  width: 600px;
+  height: 244px;
+}
+
+.lado-esquerdo {
+  float: left;
+  height: 244px;
+  margin-left: 45px;
+}
+
+.article_title {
+  color: dodgerblue;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.table td {
+  border-bottom-style: ridge;
+  border-color: aqua;
+  font-weight: 1000;
+}
+
+.table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#rodape {
+  margin: 10px;
+  clear: both;
+  list-style: none;
+  top: -2;
+  box-shadow: 0 2px 2px grey;
+  background-color: aliceblue;
+}
+
+.nav li:hover {
+  background-color: white;
+}
