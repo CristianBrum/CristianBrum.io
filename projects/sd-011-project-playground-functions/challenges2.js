@@ -10,7 +10,7 @@ const techList = (tech, name) => {
     tech = 'Vazio!';
   }
   return tech;
-}
+};
 
 const more3 = (numberArray, x) => {
   let counts = 0;
@@ -20,7 +20,7 @@ const more3 = (numberArray, x) => {
     }
   }
   return counts;
-}
+};
 
 const byNineNumber = (numberArray) => {
   for (let i of numberArray) {
@@ -28,7 +28,7 @@ const byNineNumber = (numberArray) => {
       return false;
     }
   }
-}
+};
 
 const generatePhoneNumber = (numberArray) => {
   if (numberArray.length !== 11) {
@@ -42,7 +42,7 @@ const generatePhoneNumber = (numberArray) => {
   if (match) {
     return `(${match[1]}) ${match[2]}-${match[3]}`;
   }
-}
+};
 
 const triangleCheck = (lineA, lineB, lineC) => {
   let lines1 = Math.abs(lineA + lineB);
@@ -52,7 +52,7 @@ const triangleCheck = (lineA, lineB, lineC) => {
     value = true;
   }
   return value;
-}
+};
 
 const hydrate = (drinks) => {
   let drinksReturn = /\d+/g;
@@ -65,4 +65,4 @@ const hydrate = (drinks) => {
     return `${cupsOfWater} copo de água`;
   }
   return `${cupsOfWater} copos de água`;
-}
+};

@@ -1,15 +1,15 @@
-const compareTrue = (valorOne, ValorTwo) => {return valorOne && ValorTwo;}
+const compareTrue = (valorOne, ValorTwo) => valorOne && ValorTwo;
 
-const calcArea = (base, height) => {return (base * height) / 2;}
+const calcArea = (base, height) => (base * height) / 2;
 
-const splitSentence = (SeparateWords) => {return (SeparateWords.split(' '));}
+const splitSentence = (SeparateWords) => (SeparateWords.split(' '));
 
-const concatName = (myArray) => {return `${myArray[myArray.length - 1]}, ${myArray[0]}`;}
+const concatName = (myArray) => `${myArray[myArray.length - 1]}, ${myArray[0]}`;
 
 const footballPoints = (wins, ties) => {
   let points = wins * 3 + ties * 1;
   return points;
-}
+};
 
 const highestCount = (listOfNumbers) => {
   let count = 0;
@@ -20,7 +20,7 @@ const highestCount = (listOfNumbers) => {
     }
   }
   return count;
-}
+};
 
 const catAndMouse = (mouse, cat1, cat2) => {
   if (Math.abs(cat1 - mouse) > (cat2 - mouse)) {
@@ -30,7 +30,7 @@ const catAndMouse = (mouse, cat1, cat2) => {
     return 'cat1';
   }
   return 'os gatos trombam e o rato foge';
-}
+};
 
 const fizzBug = (divArray) => {
   for (let index = 0; index < divArray.length; index += 1) {
@@ -41,7 +41,7 @@ const fizzBug = (divArray) => {
     }
   }
   return divArray;
-}
+};
 
 const fizzBuzz = (divArray) => {
   for (let index = 0; index < divArray.length; index += 1) {
@@ -53,7 +53,7 @@ const fizzBuzz = (divArray) => {
   }
   divArray = fizzBug(divArray);
   return divArray;
-}
+};
 
 const encode = (encondeParam) => {
   encondeParam = encondeParam.replace(/a/g, '1');
@@ -62,7 +62,7 @@ const encode = (encondeParam) => {
   encondeParam = encondeParam.replace(/o/g, '4');
   encondeParam = encondeParam.replace(/u/g, '5');
   return encondeParam;
-}
+};
 
 const decode = (decodeParam) => {
   decodeParam = decodeParam.replace(/1/g, 'a');
@@ -71,4 +71,4 @@ const decode = (decodeParam) => {
   decodeParam = decodeParam.replace(/4/g, 'o');
   decodeParam = decodeParam.replace(/5/g, 'u');
   return decodeParam;
-}
+};
