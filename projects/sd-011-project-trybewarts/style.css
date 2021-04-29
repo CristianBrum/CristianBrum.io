@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Benne, serif;
+  letter-spacing: 1px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 96px;
+  align-items: center;
+  padding-left: 270px;
+  padding-right: 175px;
+}
+
+.trybewarts-header-logo {
+  width: 90px;
+  height: 80%;
+}
+
+#trybewarts-header-title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  align-items: center;
+  height: 50px;
+  letter-spacing: 3px;
+}
+
+label input {
+  margin: 5px;
+}
+
+.header form input {
+  margin: 7px;
+  width: 160px;
+  border-radius: 8px;
+}
+
+.header #btnLogar {
+  font-family: Benne, serif;
+  width: 160px;
+  font-weight: 500;
+  background-color: indigo;
+  border-radius: 10px;
+  height: 40px;
+  font-size: larger;
+  justify-items: center;
+  padding-top: 15px;
+  margin: 7px;
+}
+
+::placeholder {
+  font-family: Benne, serif;
+  font-size: 20px;
+}
+
+.header form {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.main-container {
+  display: flex;
+  padding-left: 270px;
+  padding-right: 175px;
+  background-color: rgb(241, 241, 241);
+}
+
+.title {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#trybewarts-forms-logo {
+  height: 800px;
+}
+
+.input {
+  width: 300px;
+  margin: 2px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.div-nome .input {
+  height: 50px;
+}
+
+.div-nome {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.subject {
+  margin: 5px;
+}
+
+.learn-content {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radioRate {
+  margin: 5px;
+}
+
+.conteudo div {
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(60, 65, 65);
+  height: 45px;
+  color: white;
+  font-size: 23px;
+  padding-top: 10px;
+}
+
+.textarea::placeholder {
+  text-align: end;
+  padding-top: 70px;
+}
+
+#house {
+  width: 255px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.casa {
+  font-size: 20px;
+  padding: 2px;
+  font-weight: 600;
+}
+
+select option {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+hr {
+  width: 675px;
+  border-style: inset;
+  border-width: 1px;
+  background-color: rgb(60, 65, 65);
+
+}
+
+p {
+  width: 500px;
+  font-size: 20px;
+  padding-top: 70px;
+  height: 50px;
+  text-align: center;
+  font-family: Benne, serif;
+}
+
+#submit-btn {
+  width: 670px;
+  background-color: indigo;
+  color: white;
+  height: 35px;
+  border-radius: 8px;
+}
+
+#counter {
+  text-align: end;
+  width: 675px;
+  padding-right: 10px;
+  float: right;
+}
