@@ -9,7 +9,7 @@ const blueColor = document.getElementById('blue');
 const greenColor = document.getElementById('green');
 
 // https://www.w3schools.com/howto/howto_js_active_element.asp
-function selectedColor() {
+const selectedColor =() => {
   for (let i = 0; i < colorSelect.length; i += 1) {
     colorSelect[i].className = 'color';
     colorSelect[i].addEventListener('click', function () {
@@ -19,7 +19,7 @@ function selectedColor() {
   }
 }
 
-function colorPixel(event) {
+const colorPixel = (event) => {
   const selects = document.querySelector('.selected');
   const pixeLol = event.target;
   const selectColor = window.getComputedStyle(selects).getPropertyValue('background-color');
@@ -28,7 +28,7 @@ function colorPixel(event) {
 
 pixelBoards.addEventListener('click', colorPixel);
 
-function clearPixel() {
+const clearPixel = () => {
   const clearAllPixels = document.querySelectorAll('.pixel');
   for (let i = 0; i < clearAllPixels.length; i += 1) {
     clearAllPixels[i].style.backgroundColor = 'white';
@@ -37,7 +37,7 @@ function clearPixel() {
 
 btnClear.addEventListener('click', clearPixel);
 
-function makeDivs(colum) {
+const makeDivs = (colum) => {
   for (let i = 0; i < colum; i += 1) {
     const pixelDiv = document.createElement('div');
     for (let j = 0; j < colum; j += 1) {
@@ -49,14 +49,14 @@ function makeDivs(colum) {
   }
 }
 
-function removeTable() {
+const removeTable = () => {
   const removePixel = document.querySelector('#pixel-board');
   for (let i = 0; i < removePixel.childElementCount;) {
     removePixel.removeChild(removePixel.childNodes[0]);
   }
 }
 
-function boardsValue() {
+const boardsValue = () => {
   const boardSize = document.getElementById('board-size');
   if (boardSize.value < '0') {
     alert('Board inválido!');
@@ -71,7 +71,7 @@ function boardsValue() {
 
 btnSize.addEventListener('click', boardsValue);
 
-function randomColor() {
+const randomColor =() => {
   const r = Math.floor(Math.random() * 255);
   const g = Math.floor(Math.random() * 255);
   const b = Math.floor(Math.random() * 255);
