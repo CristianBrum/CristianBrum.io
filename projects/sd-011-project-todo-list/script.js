@@ -9,7 +9,7 @@ const btnUp = document.getElementById('mover-cima');
 const btnDown = document.getElementById('mover-baixo');
 const selUpDown = document.getElementsByClassName('selected');
 
-function makingList() {
+const makingList =() => {
   if (inptText.value === '') {
     return false;
   }
@@ -22,7 +22,7 @@ function makingList() {
 
 btnAdd.addEventListener('click', makingList);
 
-function liBackColor(event) {
+const liBackColor = (event) => {
   const select = document.querySelectorAll('.selected');
   if (event.target.classList.contains('listItem')) {
     for (let i = 0; i < select.length; i += 1) {
@@ -34,13 +34,11 @@ function liBackColor(event) {
 
 list.addEventListener('click', liBackColor);
 
-function clearAll() {
-  list.innerHTML = '';
-}
+const clearAll = () => {list.innerHTML = '';}
 
 clear.addEventListener('click', clearAll);
 
-function liDone(evento) {
+const liDone = (evento) => {
   if (evento.target.classList.contains('listItem')) {
     if (evento.target.classList.contains('completed') === true) {
       evento.target.classList.remove('completed');
@@ -52,7 +50,7 @@ function liDone(evento) {
 
 list.addEventListener('dblclick', liDone);
 
-function clearFinalized() {
+const clearFinalized = () => {
   const complet = document.querySelectorAll('li.completed');
   for (let i = 0; i < complet.length; i += 1) {
     complet[i].remove();
@@ -61,7 +59,7 @@ function clearFinalized() {
 
 btnFinalized.addEventListener('click', clearFinalized);
 
-function rmvSelected() {
+const rmvSelected = () => {
   const delOne = document.querySelectorAll('.selected');
   for (let i = 0; i < delOne.length; i += 1) {
     delOne[i].remove();
@@ -70,16 +68,14 @@ function rmvSelected() {
 
 btnDelete.addEventListener('click', rmvSelected);
 
-function save() {
-  localStorage.setItem('list', list.innerHTML);
-}
+const save = () => {localStorage.setItem('list', list.innerHTML);}
 
 const saved = localStorage.getItem('list');
 list.innerHTML = saved;
 
 btnSave.addEventListener('click', save);
 
-function listUp() {
+const listUp = () => {
   for (let i = 0; i < selUpDown.length; i += 1) {
     if (selUpDown[i].previousElementSibling != null) {
       const item = selUpDown[i];
@@ -90,7 +86,7 @@ function listUp() {
 
 btnUp.addEventListener('click', listUp);
 
-function listDown() {
+const listDown = () => {
   for (let i = 0; i < selUpDown.length; i += 1) {
     if (selUpDown[i].nextElementSibling != null) {
       const item = selUpDown[i];
