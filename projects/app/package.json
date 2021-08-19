@@ -1,5 +1,6 @@
 {
   "name": "app",
+  "homepage": "https://cristianbrum.github.io/cristianbrum.io/projects",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
