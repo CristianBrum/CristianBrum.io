@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45b321e48a024e3ebf902fe1b4532762",
+    "revision": "142b186c83e3356ff9ec6265469aac04",
     "url": "/cristianbrum.io/projects/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "6ea40e29a15f1f391dcc",
+    "revision": "5e61045314c986b889a4",
     "url": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ea40e29a15f1f391dcc",
-    "url": "/cristianbrum.io/projects/static/js/main.cec58785.chunk.js"
+    "revision": "5e61045314c986b889a4",
+    "url": "/cristianbrum.io/projects/static/js/main.6fb9c0a6.chunk.js"
   },
   {
     "revision": "9d69a96226c8ad717dbe",
