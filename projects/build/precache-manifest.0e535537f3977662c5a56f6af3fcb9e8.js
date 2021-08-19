@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "142b186c83e3356ff9ec6265469aac04",
+    "revision": "d154a968436c1c24280f5dfc322e5ca3",
     "url": "/cristianbrum.io/projects/index.html"
   },
   {
-    "revision": "4d451629cdc4cdef5a04",
+    "revision": "ca46c56261f855b66092",
     "url": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "5e61045314c986b889a4",
+    "revision": "41ed28279f7699bbb7cc",
     "url": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css"
   },
   {
-    "revision": "4d451629cdc4cdef5a04",
-    "url": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js"
+    "revision": "ca46c56261f855b66092",
+    "url": "/cristianbrum.io/projects/static/js/2.2cb22d4e.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js.LICENSE.txt"
+    "url": "/cristianbrum.io/projects/static/js/2.2cb22d4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e61045314c986b889a4",
-    "url": "/cristianbrum.io/projects/static/js/main.6fb9c0a6.chunk.js"
+    "revision": "41ed28279f7699bbb7cc",
+    "url": "/cristianbrum.io/projects/static/js/main.af5e7fb9.chunk.js"
   },
   {
     "revision": "9d69a96226c8ad717dbe",
